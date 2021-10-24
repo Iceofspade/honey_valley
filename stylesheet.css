@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Lato:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Lato';
+    font-size: 18px;
+}
+h1,h2,h3,a{
+    font-family: 'Fira Sans';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    cursor: pointer;
+    width: 40px;
+    height: 56px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#nav_bar ul{
+    list-style: none;
+}
+#nav_bar ul li{
+    display: inline-block;
+}
+#nav_bar ul li a{
+    color: #e45826;
+    background-color:white;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3 ease 0s;
+    text-decoration: none;
+
+}
+#nav_bar ul li a:hover{
+    color: white;
+    background-color:#e45826;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#display_box{
+    width: 100%;
+    height: 300px;
+    background-color: #4a3933;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    align-content: right;
+}
+#display_box #info_box{
+    padding: 20px;
+}
+#display_box #info_box h1{
+    color: #f0a500;
+    text-align: left;
+
+}
+#display_box #info_box p{
+    text-align: left;
+}
+#image_box{
+    height: 300px;
+    width: 400px;
+}
+#view_button{
+    background: #e45826; 
+    display: flex;
+    font-family: 'Fira Sans';
+    height: 40px;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#view_button a {
+    color: white;
+    text-decoration: none;
+}
+#offer_text {
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+#offer_text p {
+    text-align: left;
+}
+#offer_text h2{
+    text-align: left;
+}
+#product_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: 40px;
+
+}
+#product_container img{
+    height: 450px;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+#product_box{
+    background-color:#f8f5f1 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 380px;
+    height: 500px;
+}
+#product_box h2, #product_box h3, #product_boxp,#product_box b{
+    padding-top: 10px;
+    text-align: center;
+}
+#product_box b{
+    padding-top: 10px;
+    text-align: center;
+}
+#buy_button{
+    background: #e45826; 
+    display: flex;
+    font-family: 'Fira Sans';
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+#buy_button a {
+    color: white;
+    text-decoration: none;
+}
+#highlighted_product{
+    width: 380px;
+    height: 500px;
+    background-color: #e45826;
+    text-align: center;
+    color: white;
+
+}
+#highlighted_product h2{
+    text-align: center;
+}
+#highlighted_product div{
+    background-color:  #f8f5f1;
+    color: #000;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    height: 440px;
+
+}
+#highlighted_product div #buy_button{
+    background: #e45826; 
+    font-family: 'Fira Sans';
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 60px;
+
+}
+
+#benifits_section{
+    width: auto;
+    height: auto;
+    background-color: #e6d5b8;
+    margin-top: 50px;
+    padding: 30px;
+
+
+}
+#benifits_section h2{
+    text-align: left;
+
+}
+#benifits_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: left;
+}
+#benifits_text{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    padding-right: 30px;
+    margin-top: 60px;
+
+}
+#benifits_text p{
+    text-align: left;
+
+}
+#testimony_box{
+    padding: 30px;
+}
+#testimony_box p, #testimony_box h2{
+    text-align: left;
+}
+#testimony_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+#testimony{
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    width: 30%;
+    height: auto;
+    background-color: #f8f5f1;
+    text-align: center;
+    transition: all 0.3 ease 0s;
+
+}
+#testimony:hover{
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    width: 30%;
+    height: auto;
+    color: white;
+    background-color: #e45826;
+    text-align: center;
+}
+#testimony img{
+width: 150px;
+height: 150px;
+border-radius: 100px;
+}
+#testimony p, #testimonyh3{
+    padding: 20px;
+    text-align: center;
+    }
+#slogon_box{
+    display: flex;
+justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #4a3933;
+}
+#slogon_box h2{
+    text-align: left;
+    margin: auto;
+
+}
+#slogon_box div{
+    background-color: #e45826;
+    width: 600px;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
+#slogon_box div a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+footer{
+    background-color: #f8f5f1;
+}
+footer div{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+footer div nav ul{
+    list-style: none;
+}
+#footer_text{
+    padding: 5px;
+}
+#footer_text a{
+    color: #e45826;
+    text-decoration: none;
+
+}
+footer div a{
+    list-style: none;
+    text-decoration: none;
+    color: #e45826;
+    width: auto;
+    margin: auto;
+    padding-bottom: 50px;
+}
+footer div a i{
+color: #4a3933;
+}
